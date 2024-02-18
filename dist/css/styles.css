@@ -11196,7 +11196,7 @@ body:before {
       center center scroll;
     background-size: cover;
   }
-  body video {
+  body img {
     display: none;
   }
 }
