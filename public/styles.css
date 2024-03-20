@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    }
+
+/* INDEX.HTML */
+
+    .homepage {
+        color: white;
+        background-image: url(Img/new\ skyline.jpeg);
+        background-size: cover;
+        height: 100vh;
+        padding-top: 35vh;
+        padding-left: 35vw;
+    }
+
+    .main-nav {
+        width: 100%;
+        background: black;
+        min-height: 30px;
+        padding: 10px;
+        position: fixed;
+        text-align: center;
+        color: azure;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-around;
+        font-weight: 700;
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+      }
+      
+      a:link {
+        color: aquamarine;
+      }
+
+      a:visited {
+        color: aqua;
+      }
+
+      a:hover {
+        color: teal;
+      }
+
+    footer {
+        background-image: url(Img/pretoria_day.jpg);
+        background-size: cover;
+}
+    table {
+        justify-content: center;
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      table th {
+        background-color: black;
+        color: aliceblue;
+        width: 200px;
+      }
+      
+      table td {
+        background-color: #1f2739;
+        color: white;
+}
+
+.footer_text {
+        text-align: center;
+        background-color: black;
+        opacity: 80%;
+        color: white;
+        width: 50vw;
+        margin: auto;
+}
+
+footer a:link {
+color: aquamarine;
+}
+
+footer a:visited {
+    color: aqua;
+}
+
+footer a:hover {
+    color: teal;
+}
+
+/* PRACTICE AREAS */
+
+.grid-container {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.grid-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: justify;
+    background-color: bisque;
+}
+
+
+.background_1 {
+    background-color: #1f2739;
+}
+
+/* About us */ 
+
+.about_us {
+    background-color: #1f2739;
+    width: 100%;
+    padding: 78px 0;
+}
+
+.about_us img {
+    height: auto;
+    width: 30%;
+}
+
+.about_text {
+    width: 40%;
+    color: bisque;
+    text-align: justify;
+}
+
+.main {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about_text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about_text h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.about_text h5 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+span {
+    color: deeppink;
+}

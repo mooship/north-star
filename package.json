@@ -1,7 +1,0 @@
-{
-  "private": true,
-  "author": "Timothy Brits",
-  "devDependencies": {
-    "prettier": "^3.2.5"
-  }
-}
